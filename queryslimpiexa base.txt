@@ -1,0 +1,34 @@
+truncate cambiosdeaceite;
+truncate carros;
+truncate cliente0;
+truncate cuentasxpagar;
+truncate facturas;
+truncate imagenes_ordenes;
+truncate item_orden; 
+truncate item_orden_facturas_sin_orden;
+truncate movimientos_inventario;
+truncate ordenes;
+truncate prestamos_internos;
+truncate productos;
+truncate proveedores;
+truncate recibos_de_caja;
+truncate recibos_de_caja_traz;
+truncate registrofacturadas;
+truncate relacion_orden_inventario;
+truncate tecnicos;
+truncate ventas; 
+truncate ventas_temporal;
+truncate ventas_temporal_items;
+
+update empresa set contafac = 0, contaor = 0, contacot=0, contarecicaja = 0, saldocajamenor=0;
+
+tambien se debe cuadrar la imagen al principo que es en movil/imagen/logonuevo.jpeg o .png
+y la imagen del pdf que es logos/imagen/logonuevo.jpeg
+
+tambien en el pdf a veces toca quitar el nombre de la empresa
+
+tambien hay que verificar los correos que se envian en las clases phpmailer
+grabar_orden_honda.php
+orden_modificar_honda.php
+
+
